@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background: #e5e5e5;
+}
+header{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo-text{
+  text-transform: uppercase;
+  margin-left: 0.8rem;
+  font-size: 24px;
+  color: #030026;
+  font-weight: 700;
+}
+.register{
+  display: flex;
+  justify-content: space-evenly;
+}
+.register-left{
+  flex: 50%;
+  padding: 40px;
+}
+.desc-container{
+  text-align: center;
+  margin: 0 auto;
+}
+.perc h3{
+  font-weight: 100;
+  font-size: 45px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.perc p{
+font-weight: 400;
+font-size: 1.29rem;
+color: #000000;
+opacity: 0.4;
+margin-bottom: 2rem;
+line-height: 1.5;
+}
+.get-btn{
+  padding: 13px 23px;
+  background: #053582;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.register-right{
+  flex: 50%;
+  padding: 40px;
+}
+.form-container{
+  background: #ffffff;
+  box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  height: auto;
+  margin: 0 auto;
+}
+.progress-bar{
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.form-info{
+  margin-bottom: 1rem;
+}
+.form-info p{
+  margin-top: 0.8rem;
+}
+.name-input{
+  display: flex;
+  gap: 0.5rem;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #e2e2ea;
+  border-radius: 10px;
+}
+::placeholder{
+  color: #b5b5be;
+  font-size: 14px;
+}
+.hibachi{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: #252525;
+}
+.reefer{
+margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.reefer-text{
+  margin-left: 2rem;
+}
+@media(max-width: 1040px){
+  .perc h3{
+font-size: 25px;
+  }
+}
+@media(max-width: 900px){
+  .register{
+    flex-direction: column;
+  }
+  .name-input{
+    flex-direction: column;
+  }
+}
+@media(max-width: 400px){
+  .reefer{
+    flex-direction: column;
+  }
+  .reefer-text{
+    margin-bottom: 1rem;
+  }
+  .register-right{
+    padding: 10px;
+  }
+  p .hibachi{
+    font-size: 0.8rem;
+  }
+}
