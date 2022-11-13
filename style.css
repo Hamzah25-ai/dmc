@@ -1,53 +1,53 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Sono', sans-serif;
+  font-family: "Sono", sans-serif;
 }
-body{
+body {
   background: #e5e5e5;
 }
-header{
+header {
   padding: 20px;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.logo-text{
+.logo-text {
   text-transform: uppercase;
   margin-left: 0.8rem;
   font-size: 24px;
   color: #030026;
   font-weight: 700;
 }
-.register{
+.register {
   display: flex;
   justify-content: space-evenly;
 }
-.register-left{
+.register-left {
   flex: 50%;
   padding: 40px;
 }
-.desc-container{
+.desc-container {
   text-align: center;
   margin: 0 auto;
 }
-.perc h3{
+.perc h3 {
   font-weight: 100;
   font-size: 45px;
   color: #000000;
   margin-bottom: 1rem;
 }
-.perc p{
-font-weight: 400;
-font-size: 1.29rem;
-color: #000000;
-opacity: 0.4;
-margin-bottom: 2rem;
-line-height: 1.5;
+.perc p {
+  font-weight: 400;
+  font-size: 1.29rem;
+  color: #000000;
+  opacity: 0.4;
+  margin-bottom: 2rem;
+  line-height: 1.5;
 }
-.get-btn{
+.get-btn  {
   padding: 13px 23px;
   background: #053582;
   color: #ffffff;
@@ -55,11 +55,17 @@ line-height: 1.5;
   cursor: pointer;
   border: none;
 }
-.register-right{
+.omo a{
+  padding: 13px 23px;
+  color: #ffffff;
+  background-color: #053582;
+  border-radius: 10px;
+}
+.register-right {
   flex: 50%;
   padding: 40px;
 }
-.form-container{
+.form-container {
   background: #ffffff;
   box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
   border-radius: 20px;
@@ -67,60 +73,80 @@ line-height: 1.5;
   height: auto;
   margin: 0 auto;
 }
-.progress-bar{
+.info h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #393939;
+}
+.info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.003em;
+  color: #404040;
+  margin-top: 0.5rem;
+}
+.form-shit{
+  margin-top: 2.7rem;
+}
+.in-zayn{
+  text-align: right;
+}
+.progress-bar {
   width: 100%;
   margin-bottom: 1.5rem;
 }
-.form-info{
+.form-info {
   margin-bottom: 1rem;
 }
-.form-info p{
+.form-info p {
   margin-top: 0.8rem;
 }
-.name-input{
+.name-input {
   display: flex;
   gap: 0.5rem;
 }
-input{
+input {
   width: 100%;
   padding: 10px;
   margin-bottom: 1rem;
   border: 1px solid #e2e2ea;
   border-radius: 10px;
 }
-::placeholder{
+::placeholder {
   color: #b5b5be;
   font-size: 14px;
 }
-.hibachi{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.5;
-color: #252525;
+.hibachi {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #252525;
 }
-.reefer{
-margin-top: 2rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
+.reefer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.reefer-text{
+.reefer-text {
   margin-left: 2rem;
 }
-.login{
+.login {
   flex: 50%;
   padding: 40px;
 }
-.flex{
+.flex {
   margin-top: 9rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.flex-text{
+.flex-text {
   margin-left: 2rem;
 }
-.login-container{
+.login-container {
   background: #ffffff;
   box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
   border-radius: 20px;
@@ -128,39 +154,39 @@ align-items: center;
   height: 444px;
   margin: 0 auto;
 }
-header{
+header {
   font-weight: 700;
-font-size: 28px;
-line-height: 36px;
-color: #393939;
+  font-size: 28px;
+  line-height: 36px;
+  color: #393939;
 }
-.password{
+.password {
   text-align: right;
 }
-@media(max-width: 1040px){
-  .perc h3{
-font-size: 25px;
+@media (max-width: 1040px) {
+  .perc h3 {
+    font-size: 25px;
   }
 }
-@media(max-width: 900px){
-  .register{
+@media (max-width: 900px) {
+  .register {
     flex-direction: column;
   }
-  .name-input{
+  .name-input {
     flex-direction: column;
   }
 }
-@media(max-width: 400px){
-  .reefer{
+@media (max-width: 400px) {
+  .reefer {
     flex-direction: column;
   }
-  .reefer-text{
+  .reefer-text {
     margin-bottom: 1rem;
   }
-  .register-right{
+  .register-right {
     padding: 10px;
   }
-  p .hibachi{
+  p .hibachi {
     font-size: 0.8rem;
   }
 }
