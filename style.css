@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Sono", sans-serif;
+  color: inherit;
 }
 body {
   background: #e5e5e5;
@@ -17,7 +18,7 @@ header {
 .logo-text {
   text-transform: uppercase;
   margin-left: 0.8rem;
-  font-size: 24px;
+  font-size: 27px;
   color: #030026;
   font-weight: 700;
 }
@@ -55,11 +56,13 @@ header {
   cursor: pointer;
   border: none;
 }
-.omo a{
-  padding: 13px 23px;
-  color: #ffffff;
-  background-color: #053582;
-  border-radius: 10px;
+.omo{
+padding: 13px 23px;
+color: #ffffff;
+background: #053582;
+border-radius: 10px;
+border: none;
+cursor: pointer;
 }
 .register-right {
   flex: 50%;
