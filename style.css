@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Sono", sans-serif;
-  color: inherit;
 }
 body {
   background: #e5e5e5;
@@ -55,6 +54,9 @@ header {
   border-radius: 10px;
   cursor: pointer;
   border: none;
+}
+a > .omo{
+  color: inherit;
 }
 .omo{
 padding: 13px 23px;
