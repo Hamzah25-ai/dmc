@@ -47,7 +47,7 @@ header {
   margin-bottom: 2rem;
   line-height: 1.5;
 }
-.get-btn  {
+.get-btn {
   padding: 13px 23px;
   background: #053582;
   color: #ffffff;
@@ -55,16 +55,16 @@ header {
   cursor: pointer;
   border: none;
 }
-a > .omo{
+/* a > .omo{
   color: inherit;
-}
-.omo{
-padding: 13px 23px;
-color: #ffffff;
-background: #053582;
-border-radius: 10px;
-border: none;
-cursor: pointer;
+} */
+.omo {
+  padding: 13px 23px;
+  color: #ffffff;
+  background: #053582;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 .register-right {
   flex: 50%;
@@ -92,10 +92,10 @@ cursor: pointer;
   color: #404040;
   margin-top: 0.5rem;
 }
-.form-shit{
+.form-shit {
   margin-top: 2.7rem;
 }
-.in-zayn{
+.in-zayn {
   text-align: right;
 }
 .progress-bar {
@@ -141,32 +141,6 @@ input {
 .login {
   flex: 50%;
   padding: 40px;
-}
-.flex {
-  margin-top: 9rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.flex-text {
-  margin-left: 2rem;
-}
-.login-container {
-  background: #ffffff;
-  box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
-  border-radius: 20px;
-  padding: 30px;
-  height: 444px;
-  margin: 0 auto;
-}
-header {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 36px;
-  color: #393939;
-}
-.password {
-  text-align: right;
 }
 @media (max-width: 1040px) {
   .perc h3 {

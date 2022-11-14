@@ -1,0 +1,5 @@
+create a forgot passwrod page showing where to create a new password, bitch
+input= enter email
+
+remember psssword? login
+button= submit
