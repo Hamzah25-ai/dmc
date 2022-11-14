@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../flex-activity/fonts"
+		},
+		{
+			"path": "../flex-activity/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landing-page",
+		"liveServer.settings.port": 5501
+	}
+}
