@@ -115,3 +115,35 @@ input {
 /* .get-btn a{
   color: white;
 } */
+@media (max-width: 1040px) {
+  .perc h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 900px) {
+  .register {
+    flex-direction: column;
+  }
+  .name-input {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  input{
+    width: auto;
+  }
+}
+@media (max-width: 400px) {
+  .reefer {
+    flex-direction: column;
+  }
+  .reefer-text {
+    margin-bottom: 1rem;
+  }
+  .register-right {
+    padding: 10px;
+  }
+  p .hibachi {
+    font-size: 0.8rem;
+  }
+}
